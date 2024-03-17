@@ -1,0 +1,72 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.add-create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.add{
+    display: flex ;
+    justify-content: flex-end;
+}
+
+.task-card{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Low-color{
+    color: red;
+}
+.Medium-color{
+    color: orange;
+}
+.High-color{
+    color: green;
+}
+
+.task-card-info{
+    margin-right: 80px;
+    margin-left: 50px;
+}
+
+.task-card-info-progress{
+    width: 40%;
+   display: flex;
+   justify-content: center;
+   margin: -40px;
+}
+
+.task-card-info-edit{
+ display: flex;
+
+}   
+
+.in-progress{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.task-card-info-priority{
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+
+
+
+
